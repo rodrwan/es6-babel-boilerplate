@@ -1,9 +1,16 @@
 import colors from 'colors';
-import dotenv from 'dotenv';
 
-if (process.env.NODEJS_ENV) {
-  console.log(colors);
-  console.log(dotenv);
-}
+colors.setTheme({
+  silly: 'rainbow',
+  input: 'grey',
+  verbose: 'cyan',
+  prompt: 'grey',
+  info: 'green',
+  data: 'grey',
+  help: 'cyan',
+  warn: 'yellow',
+  debug: 'blue',
+  error: 'red',
+});
 
-
+console.log('Hello world'.warn);
