@@ -4,4 +4,4 @@ This repository is to generate de baseground of futures projects.
 
 # TODO
 
-- [ ] Add babel support to test script.
+- [ ] Add babel support for test script.
