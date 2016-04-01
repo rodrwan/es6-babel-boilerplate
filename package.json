@@ -4,7 +4,7 @@
   "description": "Boilerplate to use extended features of es6 with babel",
   "main": "index.js",
   "scripts": {
-    "test": "./node_moduler/.bin/mocha --compilers js:babel-register",
+    "test": "./node_modules/.bin/mocha --compilers js:babel-register",
     "clean": "rimraf build",
     "build": "better-npm-run build",
     "lint": "eslint src/",
