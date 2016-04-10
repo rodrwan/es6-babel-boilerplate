@@ -30,4 +30,4 @@ After install and test the new commands, you are ready to code.
 
 ## TODO
 
-- [ ] Add babel support for test script.
+- [X] Add babel support for test script.
