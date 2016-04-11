@@ -16,13 +16,13 @@
   },
   "betterScripts": {
     "build": {
-      "command": "npm run clean && ./node_modules/.bin/babel -d ./build src -s",
+      "command": "npm run clean && babel -d ./build src -s",
       "env": {
         "NODEJS_ENV": "development"
       }
     },
     "dev": {
-      "command": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/babel-node --presets=es2015,stage-0 -- src/index.js",
+      "command": "nodemon --exec babel-node --presets=es2015,stage-0 -- src/index.js",
       "env": {
         "NODEJS_ENV": "development"
       }
